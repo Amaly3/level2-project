@@ -8,7 +8,7 @@ metadata:
   labels:
     service_name: project-assessment-site
     service_type: REST
-spec:
+spec:	4fc41399-01c2-46d3-a528-0c6f5ee8b751
   containers:
   - name: dnd
     image: docker:latest
@@ -32,10 +32,10 @@ spec:
     }
   }
   environment {
-    CREDS = credentials('maha_docker_creds')
-    DOCKER_NAMESPACE = 'ma404'
+    CREDS = credentials('amaly3')
+    DOCKER_NAMESPACE = 'amaly3'
     SERVICE_NAME = 'project-assessment-site'
-    TOKEN=credentials('aaa56c9d-0604-484c-b5ca-ed1b5ce3288c')
+    TOKEN=credentials('4fc41399-01c2-46d3-a528-0c6f5ee8b751')
   }
   stages {
       stage("Build") {
