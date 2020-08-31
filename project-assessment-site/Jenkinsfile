@@ -8,7 +8,7 @@ metadata:
   labels:
     service_name: project-assessment-site
     service_type: REST
-spec: 4fc41399-01c2-46d3-a528-0c6f5ee8b751
+spec:
   containers:
   - name: dnd
     image: docker:latest
