@@ -32,10 +32,10 @@ spec:
     }
   }
   environment {
-    CREDS = credentials('maha_docker_creds')
-    DOCKER_NAMESPACE = 'ma404'
+    CREDS = credentials('amaly3')
+    DOCKER_NAMESPACE = 'amaly3'
     SERVICE_NAME = 'person-service'
-    TOKEN=credentials('8e9a75db-e60d-40d9-8f5f-997daf860b91')
+    TOKEN=credentials('4fc41399-01c2-46d3-a528-0c6f5ee8b751')
   }
   stages {
       stage("Build") {
